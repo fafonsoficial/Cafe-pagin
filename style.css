@@ -47,8 +47,20 @@
     background: #fff;
     border-radius: 5px;
     transform: scaleX(0);
+    transition: .5s;
 }
 
 .nav a:hover::after {
     transform: scaleX(1);
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(/img/cup-coffee-with-pile-coffee-beans.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
 }
